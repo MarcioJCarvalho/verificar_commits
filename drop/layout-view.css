@@ -1,0 +1,27 @@
+/* ========!!!!!!!!Comnete este bloco para desabilitar as linhas pontilhadas!!!!!!!!!===============*/
+.matriz{
+    border-style: dashed;
+    color: rgb(248, 152, 135);
+  }
+  
+  .linha{
+    border-style: dashed;
+    color: rgb(145, 253, 130);
+  }
+  
+  .coluna-1,
+  .coluna-2,
+  .coluna-3,
+  .coluna-4,
+  .coluna-5,
+  .coluna-6,
+  .coluna-7,
+  .coluna-8,
+  .coluna-9,
+  .coluna-10,
+  .coluna-11,
+  .coluna-12{
+    border-style: dashed;
+    color: rgb(252, 140, 237);
+  }
+  /*========!!!!!!!!Comnete este bloco para desabilitar as linhas pontilhadas!!!!!!!!!===============*/

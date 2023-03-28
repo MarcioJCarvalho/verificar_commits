@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./drop/grade.css">
+    <link rel="stylesheet" href="./drop/reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="matriz">
+        <div class="linha">
+            <div class="coluna-2"></div>
+            <div class="coluna-8 card">
+                <h1>GitHub Commits</h1>
+                <div class="git-icon">
+                    <div class="img-wapper">
+                        <img src="./assets/iconmonstr-github-1.svg" alt="GitHub">
+                    </div>
+                </div>
+                <form>
+                    <div class="linha">
+                        <div class="input">
+                            <label>Repositório:</label>
+                            <input type="text" name="repositorio" id="repositorio">
+                        </div>
+                    </div>
+                    <div class="linha">
+                        <div class="coluna-6">
+                            <div class="input">
+                                <label>Data inicial:</label>
+                                <input type="date" name="dataInicial" id="dataInicial">
+                            </div>
+                        </div>
+                        <div class="coluna-6">
+                            <div class="input">
+                                <label>Data final:</label>
+                                <input type="date" name="dataFinal" id="dataFinal">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="linha">
+                        <div class="coluna-9"></div>
+                        <div class="coluna-3">
+                            <div class="input">
+                                <button type="submit" value="Pesquisar">Pesquisar</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="linha">
+                        <div class="tabela" id="dados"></div>
+                </div>
+            </div>
+            <div class="coluna-2"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
